@@ -10,22 +10,22 @@
     <title>Instagram</title>
 </head>
 
-<body>
-    <main>
+<body class="body">
+    <main class="body_main">
         <!-- Header movil y web -->
-        <header>
-            <nav>
-                <img src="./assets/header/Instagram_logo.png" alt="">
+        <header class="body_main_header">
+            <nav class="main_header_nav">
+                <img  class="header_nav_img" src="./assets/header/Instagram_logo.png" alt="">
                 <!-- Input para version web -->
-                <input type="text" placeholder="Busca">
+                <input  class="header_nav_input-web" type="text" placeholder="Busca">
                 <!-- menu versión movil-->
-                <ul>
-                    <li><img src="./assets/header/añadir.png" alt=""></li>
-                    <li><img src="./assets/header/me_gusta.png" alt=""></li>
-                    <li><img src="./assets/header/chat.png" alt=""></li>
+                <ul class="header_nav_ul-movil" >
+                    <li class="nav_ul_li-movil"><img src="./assets/header/añadir.png" alt=""></li>
+                    <li class="nav_ul_li-movil"><img src="./assets/header/me_gusta.png" alt=""></li>
+                    <li class="nav_ul_li-movil"><img src="./assets/header/chat.png" alt=""></li>
                 </ul>
                 <!-- menu versión web-->
-                <ul>
+                <ul class="header_nav_ul-web" >
                     <li><img src="./assets/header/home.png" alt=""></li>
                     <li><img src="./assets/header/chat.png" alt=""></li>
                     <li><img src="./assets/header/añadir.png" alt=""></li>
@@ -37,99 +37,97 @@
         </header>
 
         <!-- seccion de historias -->
-        <section>
-            <article>
+        <section class="body_main_section-historias">
+            <article class="main_section_article-historias">
                 <!-- imagen y nombre de la historia -->
-                <a href="./historia.html"><img src="./assets/body/historias/historia1.png" alt=""></a>
-                <p>Historia 1</p>
+                <a class="section_article_a-historias" href="./historia.html"><img src="./assets/body/historias/historia1.png" alt=""></a>
+                <p class="section_article_p-historias" >Historia 1</p>
             </article>
-            <article>
-                <img src="./assets/body/historias/historia2.png" alt="">
-                <p>Historia 2</p>
+            <article class="main_section_article-historias">
+                <a class="section_article_a-historias" href="./historia.html"><img src="./assets/body/historias/historia2.png" alt=""></a>
+                <p class="section_article_p-historias" >Historia 2</p>
             </article>
-            <article>
-                <img src="./assets/body/historias/historia3.png" alt="">
-                <p>Historia 3</p>
+            <article class="main_section_article-historias">
+                <a class="section_article_a-historias"  href="./historia.html"><img src="./assets/body/historias/historia3.png" alt=""></a>
+                <p class="section_article_p-historias" >Historia 3</p>
             </article>
         </section>
 
         <!-- Seccion de publicación -->
-        <section>
-            <article>
+        <section class="body_main_section-puclicaiones">
+            <article class="main_section_article-publicacion">
                 <!-- Icono de la pubicación -->
-                <div>
-                    <img src="./assets/body/historias/historia1.png" alt="">
-                </div>
+                <div class="section_article_div-publicacion">
+                    <figure class="article_div_figure-publicacion_icono">
+                        <img src="./assets/body/historias/historia1.png" alt="">
+                    </figure>
                 <!-- Titulo y subtitulo de la publicació -->
-                <h3>Primera publicación</h3>
-                <h4>Fulanito Uno</h4>
+                    <h4 class="article_div_h4">Fulanito Uno</h4>
+                </div>
                 <!-- Imagen de la publicación -->
-                <div>
-                    <img src="./assets/body/publicacion/publicacion1.jpg" alt="">
-                </div>
+                <figure class="section_article_figure-publicacion_imagen">
+                    <img class="img-inta"src="./assets/body/publicacion/publicacion1.jpg" alt="">
+                </figure>
                 <!-- Lista de iconos de la publicacion -->
-                <div>
-                    <ul>
-                        <li><img src="./assets/body/iconos/me_gusta.png" alt=""></li>
-                        <li><img src="./assets/body/iconos/mensaje.png" alt=""></li>
-                        <li><img src="./assets/body/iconos/compartir.png" alt=""></li>
-                    </ul>
-                </div>
+                <ul class="section_article_ul">
+                    <li class="article_ul_li-iconopubli"><img src="./assets/body/iconos/me_gusta.png" alt=""></li>
+                    <li class="article_ul_li-iconopubli"><img src="./assets/body/iconos/mensaje.png" alt=""></li>
+                    <li class="article_ul_li-iconopubli"><img src="./assets/body/iconos/compartir.png" alt=""></li>
                 <!-- Icono de favorito -->
-                <div>
-                    <img src="./assets/body/iconos/favorito.png" alt="">
-                </div>
+                    <figure class="article_ul_figure-iconofav">
+                        <img src="./assets/body/iconos/favorito.png" alt="">
+                    </figure>
+                </ul>
                 <!-- Textos de la publicación -->
-                <p>20 Me gustaa</p>
-                <p>De paseo...</p>
+                <p class="section_article_p-like">20 Me gusta</p>
+                <p class="section_article_p">De paseo...</p>
                 <!-- Agregar un comentario -->
-                <div>
+                <div class="section_article_div-comentario">
                     <!-- icono de perfil-->
                     <img src="./assets/header/perfil.png" alt="">
                     <!-- Input del comentario -->
                     <input type="text" placeholder="Agrega un comentario">
                 </div>
-                <p>Hace 2 horas</p>
+                <p class="section_article_p-time">Hace 2 horas</p>
             </article>
-            <article>
+            <article class="main_section_article-publicacion">
                 <!-- Icono de la pubicación -->
-                <div>
-                    <img src="./assets/body/historias/historia2.png" alt="">
-                </div>
+                <div class="section_article_div-publicacion">
+                    <figure class="article_div_figure-publicacion_icono">
+                        <img src="./assets/body/historias/historia2.png" alt="">
+                    </figure>
                 <!-- Titulo y subtitulo de la publicació -->
-                <h3>Titulo</h3>
-                <h4>subtitulo</h4>
+                    <h4 class="article_div_h4">subtitulo</h4>
+                </div>
                 <!-- Imagen de la publicación -->
-                <div>
-                    <img src="./assets/body/publicacion/publicacion2.jpg" alt="">
-                </div>
+                <figure class="section_article_figure-publicacion_imagen">
+                    <img class="img-inta"src="./assets/body/publicacion/publicacion2.jpg" alt="">
+                </figure>
                 <!-- Lista de iconos de la publicacion -->
-                <div>
-                    <ul>
-                        <li><img src="./assets/body/iconos/me_gusta.png" alt=""></li>
-                        <li><img src="./assets/body/iconos/mensaje.png" alt=""></li>
-                        <li><img src="./assets/body/iconos/compartir.png" alt=""></li>
-                    </ul>
-                </div>
-                <!-- Icono de guardar -->
-                <div>
-                    <img src="./assets/body/iconos/favorito.png" alt="">
-                </div>
+                <ul class="section_article_ul">
+                    <li class="article_ul_li-iconopubli"><img src="./assets/body/iconos/me_gusta.png" alt=""></li>
+                    <li class="article_ul_li-iconopubli"><img src="./assets/body/iconos/mensaje.png" alt=""></li>
+                    <li class="article_ul_li-iconopubli"><img src="./assets/body/iconos/compartir.png" alt=""></li>
+                <!-- Icono de favorito -->
+                    <figure class="article_ul_figure-iconofav">
+                        <img src="./assets/body/iconos/favorito.png" alt="">
+                    </figure>
+                </ul>
                 <!-- Textos de la publicación -->
-                <p>Me gutsa</p>
-                <p>Texto de la publicación</p>
+                <p class="section_article_p-like">Me gustaa</p>
+                <p class="section_article_p">Texto de la publicación</p>
                 <!-- Agregar un comentario -->
-                <div>
+                <div class="section_article_div-comentario">
                     <!-- icono de perfil-->
                     <img src="./assets/header/perfil.png" alt="">
                     <!-- Input del comentario -->
                     <input type="text" placeholder="Agrega un comentario">
                 </div>
-                <p>Hace 2 horas</p>
+                <p class="section_article_p-time">Hace 2 horas</p>
             </article>
         </section>
         <!-- aside para la version web -->
-        <aside>
+        <aside class="body_main_aside">
             <div>
                 <!-- icono de perfil-->
                 <div>
@@ -171,14 +169,13 @@
             </div>
         </aside>
         <!-- Footer para version movil -->
-        <footer>
-            <ul>
-                <li><img src="./assets/header/home.png" alt=""></li>
-                <li><img src="./assets/body/iconos/busqueda.png" alt=""></li>
-                <li><img src="./assets/body/iconos/reels.png" alt=""></li>
-                <li><img src="./assets/body/iconos/shop.png" alt=""></li>
-                <li><img src="./assets/header/perfil.png" alt=""></li>
-            </ul>
+        <footer class="body_main_footer">
+                <img src="./assets/header/home.png" alt="">
+                <img src="./assets/body/iconos/busqueda.png" alt="">
+                <img src="./assets/body/iconos/reels.png" alt="">
+                <img src="./assets/body/iconos/shop.png" alt="">
+                <img src="./assets/header/perfil.png" alt="">
+
         </footer>
         <!-- Version web no tiene footer-->
     </main>

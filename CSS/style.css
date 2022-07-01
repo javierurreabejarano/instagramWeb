@@ -2,3 +2,132 @@
     margin: 0px;
     padding: 0px;
 }
+.body_main_header{
+    padding: 10px 10px 5px;
+    display: block;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 100;
+}
+.main_header_nav{
+    display: flex;
+    justify-content: space-between;
+}
+.header_nav_img{
+    width: 30%;
+    height: 40px;
+}
+.header_nav_input-web{
+    display: none;
+}
+.header_nav_ul-web{
+    display: none;
+}
+.header_nav_ul-movil{
+    display: flex;
+}
+.nav_ul_li-movil{
+    list-style: none;
+}
+.nav_ul_li-movil img{
+    width: 28px;
+    height: 28px;
+    padding: 2px 3px;
+}
+.body_main_aside{
+    display: none;
+}
+.body_main_section-historias{
+    display: flex;
+    padding: 0 20px;
+}
+.main_section_article-historias{
+    margin: 0 10px;
+}
+.section_article_a-historias img{ 
+    width: 60px;
+    border: #ed2097 solid 3px;
+    border-radius: 50%;
+    clip-path: circle(50% at 50% 50%);
+    background-color: #d0d0d0;
+}
+.section_article_p-historias{
+    text-align: center;
+}
+.body_main_section-puclicaiones{
+    padding: 15px 0px;
+}
+.section_article_div-publicacion{
+    display: flex;
+    padding: 15px 20px;
+}
+.article_div_figure-publicacion_icono img{
+    width: 30px;
+    border: #ed2097 solid 2px;
+    border-radius: 50%;
+    clip-path: circle(50% at 50% 50%);
+    background-color: #d0d0d0;
+}
+.article_div_h4{
+    padding: 8px 10px;
+}
+.section_article_figure-publicacion_imagen img{
+    width: 100vw;
+}
+.section_article_ul{
+    display: flex;
+    padding: 5px 10px;
+}
+.article_ul_li-iconopubli{
+    list-style: none;
+    flex-grow: 1;
+}
+.article_ul_li-iconopubli img{
+    width: 25px;
+    height: 25px;
+}
+.article_ul_figure-iconofav{
+    flex-grow: 5;
+}
+.article_ul_figure-iconofav img{
+    width: 25px;
+    height: 25px;
+    float: right;
+}
+.section_article_p-like{
+    font-weight: bold;
+    padding-left: 10px;
+}
+.section_article_p{
+    padding-left: 10px;
+}
+.section_article_div-comentario{
+    display: flex;
+}
+.section_article_div-comentario img{
+    width: 35px;
+    height: 35px;
+    padding-left: 10px;
+}
+.section_article_div-comentario input{
+    border: 0;
+    padding-left: 5px;
+}
+.section_article_p-time{
+    font-size: 11px;
+    padding-left: 10px;
+}
+.body_main_footer{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    z-index: 100;
+    bottom: 0;
+    background: #fff;
+    padding: 10px;
+}
+.body_main_footer img{
+    width: 30px;
+    height: 30px;
+}
